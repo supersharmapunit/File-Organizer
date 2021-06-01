@@ -19,3 +19,6 @@
   to install it type/copy in cmd or teminal
      ```npm install chalk```
 
+then in this directory run
+     ```npm link```
+
