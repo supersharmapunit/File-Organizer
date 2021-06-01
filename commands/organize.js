@@ -16,7 +16,7 @@ function organizeFn(dirPath) {
         if (doesExist) {
 
             // 2. create -> organized_files -> directory
-            destPath = path.join(dirPath, "organized_files");
+            destPath = path.join(dirPath, "organizedFiles");
             if (fs.existsSync(destPath) == false) {
                 fs.mkdirSync(destPath);
             }
